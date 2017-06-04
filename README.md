@@ -30,7 +30,7 @@
 - Creaccion del RSS
 - Finalizacion del proyecto.
 
-## Version 5##
+## Version 5 ##
 
 - Branch nuevo con el codigo minify.
 
