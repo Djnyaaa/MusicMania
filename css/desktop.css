@@ -47,7 +47,7 @@ and open the template in the editor.
 #publi2{
     height: 600px;
     position: absolute;
-    float: right;
+    margin-left: 79%;
     width: 300px; 
     margin-right: 5px;
 }
