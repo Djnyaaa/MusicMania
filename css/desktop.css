@@ -8,13 +8,18 @@ and open the template in the editor.
     Author     : Usuario
 */
 
+#fondo {
+    background-color: #CBE4D6;
+}
 #cabecera {
     margin-top: 5%;
     margin-bottom: 10%;
+    
 }
 
 #menu {
     margin-bottom: 15px;
+    background-color: #c0c0c0;
 }
 #carrusel {
    
@@ -31,7 +36,6 @@ and open the template in the editor.
     float: right;
     width: 300px;
     height: 250px;
-    background-color: red;
     
 }
 
@@ -74,3 +78,12 @@ and open the template in the editor.
 		margin-top: 10px;
 
 }
+
+.portada {
+    height: 60%;
+    width: 60%;
+}
+
+.softSpoken{
+    height: auto;
+}  

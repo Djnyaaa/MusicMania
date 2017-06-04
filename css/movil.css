@@ -39,9 +39,11 @@ and open the template in the editor.
     height: 90px;
     position: fixed;
     bottom: -4%;
-    left: 10%;
     width: 100px;
     z-index: 100;  
+    margin: -10px -80px; 
+    bottom: 0; 
+    left:30%;
 }
 
 
@@ -68,4 +70,15 @@ and open the template in the editor.
 
 #separador1,#separador2,#separador3,#separador4,#separador5,#separador6,#separador7,#separador8,#separador9,#separador10,#separador11 {
     height: 75px;
+}
+.softSpoken{
+    height: auto;
+}  
+
+#menu {
+    margin-bottom: 15px;
+    background-color: #c0c0c0;
+}
+#fondo {
+    background-color: #CBE4D6;
 }
