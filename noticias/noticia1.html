@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title>Musicmania - Noticias de tus artistas favoritos.</title>
+        <meta charset="utf-8">
+        <link rel="alternate" type="application/rss+xml" title="rss de l'aplicació" href="rss/rss.xml">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='stylesheet' media='screen and (min-width: 721px)' href='css/desktop.css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="js/js.js"></script>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Musicmania</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Inicio</a></li>
+                        <li><a href="#noticia">Noticias</a></li>
+                        <li><a href="#about">Sobre mi...</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <div class="container" id="cabecera" >
+            <div class="row" >
+
+                <div class="col-md-8" id="carrusel">   
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img class="img-responsive center-block" src="img/2.jpg" alt="Carlos">
+                            </div>
+
+                            <div class="item">
+                                <img class="img-responsive center-block" src="img/3.jpg" alt="Chicago">
+                            </div>
+
+                            <div class="item">
+                                <img class="img-responsive center-block" src="img/4.jpg" alt="New york">
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Anterior</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Siguiente</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4" id="ads">Publicidad</div>
+
+            </div>
+        </div>
+        <div id="bloquenoticias" class="col-md-8">
+            <div id="padre" class="row">   
+                <div class="container">    
+                    <div class="col-md-4" id="noticias">
+                        <div class="thumbnail featured-thumbnail"><a href="noticia1" title="noticia1"><img src="img/grant.jpg" alt="grant bowtie"></a></div>
+                    </div>
+                    <div class="col-md-6"><h3><a href="" title="notiia1">Titulo de notia 2</a></h3>
+                        <div class="col-md-6">Esto es un texto sin sentido para poder hacer de descripcion.</div>
+                    </div>
+
+                </div>
+                <div class="container">    
+                    
+                    <div class="col-md-4" id="noticias">
+                        <div class="thumbnail featured-thumbnail"><a href="noticia2" title="noticia2"><img src="img/grant.jpg" alt="grant bowtie"></a></div>
+                    </div>
+                    <div class="col-md-6"><h3><a href="">Titulo Noticia 2</a></h3>
+                        <div class="col-md-6">Esto es un texto sin sentido para poder hacer de descripcion.</div>
+                    </div>
+                </div>
+                <div class="container">    
+                    <div class="col-md-4" id="noticias">
+                        <div class="thumbnail featured-thumbnail"><a href="notica3" title="titulonoticia3"><img src="img/grant.jpg" alt="Grant Bowtie"></a></div>
+                    </div>
+                    <div class="col-md-6"><h3><a href="noticia3" title="noticia3">Noticia 3</a></h3>
+                        <div class="col-md-6">Esto es un texto sin sentido para poder hacer de descripcion.</div>
+                    </div>
+                </div>
+               <!-- <div id="padre" class="container">
+                    
+                </div>-->
+            </div>
+                <div id="boton" class="col-md-12">
+            <button id="cargar" type="submit" class="btn btn-default">Cargar más</button>    
+        </div>
+        </div>
+        <div class="col-md-12" id="publi2">Publicidad</div>
+       <div id="json"> 
+           
+       </div>
+
+    </body>
+</html>

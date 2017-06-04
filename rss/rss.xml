@@ -1,0 +1,20 @@
+ <?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Pagina Principal</title>
+  <link>index.html</link>
+  <description>Noticias de tus artistas favoritos</description>
+  <item>
+    <title>Noticia 1</title>
+    <link>noticia1.html</link>
+    <description>Grant, future bass del bueno</description>
+  </item>
+  <item>
+    <title>Noticia 2</title>
+    <link>noticia2.hmtl</link>
+    <description>Puppet: Artista conceptual de año</description>
+  </item>
+</channel>
+
+</rss> .
