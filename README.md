@@ -12,7 +12,7 @@
 
 *Este diseño es preliminar, por eso la version final no sera igual.
 
-## Version 2##
+## Version 2 ##
 - Creaccion del INDEX con los diferentes elementos.
 - Problemas con los diferentes tamaños de las noticas y arreglar esos errores.
 - Posicion del anuncio fijada y el comportamiento de ella al reducir la pantalla.
@@ -20,7 +20,7 @@
 - Creacion del JS para cuando se le de al boton de carga y el Scroll este abajo.
 - El JS cargara el json para que las noticias aparezcan cuando se cumpla la funcion.
 
-## Version 3##
+## Version 3 ##
 - Colocar los METACONTENT para cuando se comparta el link aparezcan las diferentes informaciones.
 - 
 
@@ -28,5 +28,10 @@
 
 ## Version 4  ##
 - Creaccion del RSS
+- Finalizacion del proyecto.
+
+## Version 5##
+
+- Branch nuevo con el codigo minify.
 
 
