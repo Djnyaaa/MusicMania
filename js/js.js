@@ -31,8 +31,8 @@ $(function () {
 function ponerNoticias(json) {
 	$.each(json, function (i, noticia) {
         $('#padre').append($("<div class='container'><div class='row'><div class='col-md-1'></div><div id='separador"+(i+3)+"' class='col-md-10'></div><div class='col-md-1'></div></div></div><div class='container'><div class='col-xs-10 col-sm-6 col-md-4 col-lg-4' id='noticia"+(i+3)
-+"'><img src='"+ noticia.img+"' alt='"+noticia.titulo +"'></div><div class='col-xs-10 col-sm-6 col-md-6 col-lg-8'><h3>"+noticia.titulo
-+"</h3></div><div class='col-xs-10 col-sm-4 col-md-6 col-lg-8'>"+noticia.descripcion+"</div><div id='fecha"+(i+3)+ "' class='col-xs-8 col-sm-6 col-md-8 col-lg-8'><small>"
++"'><img src='"+ noticia.img+"' alt='"+noticia.titulo +"'></div><div class='col-xs-10 col-sm-6 col-md-6 col-lg-7'><h3>"+noticia.titulo
++"</h3></div><div class='col-xs-10 col-sm-4 col-md-6 col-lg-7'>"+noticia.descripcion+"</div><div id='fecha"+(i+3)+ "' class='col-xs-8 col-sm-6 col-md-8 col-lg-8'><small>"
 +noticia.fecha+"</small></div></div>")
 		
 		);
@@ -43,8 +43,8 @@ function ponerNoticias(json) {
 function ponerNoticias1(json) {
 	$.each(json, function (i, noticia) {
         $('#padre').append($("<div class='container'><div class='row'><div class='col-md-1'></div><div id='separador"+(i+6)+"' class='col-md-10'></div><div class='col-md-1'></div></div></div><div class='container'><div class='col-xs-10 col-sm-6 col-md-4 col-lg-4' id='noticia"+(i+6)
-+"'><img src='"+ noticia.img+"' alt='"+noticia.titulo +"'></div><div class='col-xs-10 col-sm-6 col-md-6 col-lg-8'><h3>"+noticia.titulo
-+"</h3></div><div class='col-xs-10 col-sm-4 col-md-6 col-lg-8'>"+noticia.descripcion+"</div><div id='fecha"+(i+6)+ "' class='col-xs-8 col-sm-6 col-md-8 col-lg-8'><small>"
++"'><img src='"+ noticia.img+"' alt='"+noticia.titulo +"'></div><div class='col-xs-10 col-sm-6 col-md-6 col-lg-7'><h3>"+noticia.titulo
++"</h3></div><div class='col-xs-10 col-sm-4 col-md-6 col-lg-7'>"+noticia.descripcion+"</div><div id='fecha"+(i+6)+ "' class='col-xs-8 col-sm-6 col-md-8 col-lg-8'><small>"
 +noticia.fecha+"</small></div></div>")
 		
 		);

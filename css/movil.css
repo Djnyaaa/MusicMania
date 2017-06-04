@@ -62,10 +62,10 @@ and open the template in the editor.
 }
 
 #fecha1,#fecha2,#fecha3,#fecha4,#fecha5,#fecha5,#fecha6,#fecha7,#fecha8,#fecha9{
-		margin-top: 5%;
+		margin-top: 10px;
 
 }
 
-#separador1,#separador2,#separador3,#separador4,#separador5 {
+#separador1,#separador2,#separador3,#separador4,#separador5,#separador6,#separador7,#separador8,#separador9,#separador10 {
     height: 75px;
 }
