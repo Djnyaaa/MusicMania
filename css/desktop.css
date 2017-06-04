@@ -13,19 +13,21 @@ and open the template in the editor.
     margin-bottom: 10%;
 }
 
+#menu {
+    margin-bottom: 15px;
+}
 #carrusel {
    
-    height: 60%;
-    width: 60%;
-    margin-right: 16px;
+    height: 50%;
+    width: 50%;
+    margin-right: 8px;
 }
 
-#separador1,#separador2,#separador3,#separador4,#separador5,#separador6,#separador7,#separador8,#separador9,#separador10 {
+#separador1,#separador2,#separador3,#separador4,#separador5,#separador6,#separador7,#separador8,#separador9,#separador10,#separador11 {
     height: 75px;
 }
 
 #ads {
-    
     float: right;
     width: 300px;
     height: 250px;
@@ -41,6 +43,7 @@ and open the template in the editor.
 }
 
 #bloquenoticias {
+    margin-top: 5%;
     margin-right: 50px;
 	float: left;
 }
