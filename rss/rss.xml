@@ -3,17 +3,17 @@
 
 <channel>
   <title>Pagina Principal</title>
-  <link>index.html</link>
+  <link>https://rawgit.com/Djnyaaa/MusicMania/master/index.html</link>
   <description>Noticias de tus artistas favoritos</description>
   <item>
-    <title>Noticia 1</title>
+    <title>Puppet, innovando la musica electronica</title>
     <link>noticia1.html</link>
-    <description>Grant, future bass del bueno</description>
+    <description>Puppet, innovando la musica electronica</description>
   </item>
   <item>
-    <title>Noticia 2</title>
-    <link>noticia2.hmtl</link>
-    <description>Puppet: Artista conceptual de año</description>
+    <title>Porter Robinson x Madeon: Shelter</title>
+    <link>https://rawgit.com/Djnyaaa/MusicMania/master/noticias/noticia2.html</link>
+    <description>Porter Robinson x Madeon: Shelter</description>
   </item>
 </channel>
 
